@@ -4,10 +4,10 @@ import './stylesheets/nav.scss'
 function Nav () {
   return (
     <nav>
-      <a href="#">HOME</a>
-      <a href="#">ABOUT</a>
-      <a href="#">PROJECTS</a>
-      <a href="#">CONTACT</a>
+      <a href="home">HOME</a>
+      <a href="about">ABOUT</a>
+      <a href="projects">PROJECTS</a>
+      <a href="contact">CONTACT</a>
     </nav>
   )
 }
