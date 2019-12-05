@@ -4,6 +4,7 @@ import './stylesheets/contact.scss'
 function Contact () {
   return (
   <Fragment>
+    <section className="contact-section">
     <h1>Contact Me</h1>
     <ul>
       <li>Email:<a href="#">bussajye@gmail.com</a></li>
@@ -11,6 +12,7 @@ function Contact () {
       <li>LinkedIn:<a href="#">Jye Bussa</a></li>
       <li>Github:<a href="#">Jyeb</a></li>
     </ul>
+    </section>
   </Fragment>
   )
 }
