@@ -3,7 +3,7 @@ import './stylesheets/home.scss'
 function Home () {
   return (
     <Fragment>
-      <img src="/images/background.jpg" alt="background image" />
+      <img className="background-image" src="/images/background.jpg" alt="background image" />
       <div className="homeinfo">
         <h1>Hello, I'm Jye Bussa</h1>
         <p>Student</p>

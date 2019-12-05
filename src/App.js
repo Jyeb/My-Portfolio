@@ -14,12 +14,10 @@ function App() {
   return (
     <Fragment>
       <Nav />
-      <Router>
-        <Route exact path='/' component={Home} />
-        <Route path='/about' component={About} />
-        <Route path='/contact' component={Contact} />
-        <Route path='/projects' component={Projects} />
-      </Router>
+      <section><Home /></section>
+      <section><About /></section>
+      <section><Projects /></section>
+      <section><Contact /></section>
     </Fragment>
   )
 }
