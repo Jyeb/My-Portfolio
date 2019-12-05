@@ -1,0 +1,26 @@
+nav {
+  background-color: #234651;
+  position: fixed;
+  top: 0px;
+  margin: 0;
+  height: 60px;
+  list-style-type: none;
+  width: 100vw;
+  border-bottom: 2px solid #04C2C9;
+  .nav-options {
+    width: 80vw;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    a {
+      display: inline-block; 
+      color: white; 
+      padding: 20px 16px; 
+      text-decoration: none;
+  
+      &:hover {
+        opacity: 0.5;
+      }
+    }  
+  }
+}
