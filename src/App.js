@@ -1,6 +1,5 @@
 import React, { Fragment } from 'react'
 import './stylesheets/App.scss'
-import { Route, Link, BrowserRouter as Router} from 'react-router-dom'
 import Home from './home'
 import About from './about'
 import Contact from './contact'
@@ -14,10 +13,10 @@ function App() {
   return (
     <Fragment>
       <Nav />
-      <section><Home /></section>
-      <section><About /></section>
-      <section><Projects /></section>
-      <section><Contact /></section>
+      <section className="home-page"><Home /></section>
+      <section className="about-page"><About /></section>
+      <section className="projects-page"><Projects /></section>
+      <section className="contact-page"><Contact /></section>
     </Fragment>
   )
 }

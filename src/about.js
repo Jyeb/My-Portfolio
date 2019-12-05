@@ -4,29 +4,43 @@ import './stylesheets/about.scss'
 function About () {
   return (
     <div>
-      <h1 className="about">About Me</h1>
-      <img className="profile-picture" src="/images/resume.png" alt="profile-picture" />
       <section className="about-section">
-        <hr />
+        <h1 className="about">About Me</h1>
+        <img className="profile-picture" src="/images/resume.png" alt="profile-picture" />
         <p>I am currently studying a diploma of IT at Coder Academy in Brisbane, Australia. My interests are in web development, 
-          machine learning, and mathematics. I have previously, worked in the engineering industry as a structural draftsman, with experience meeting strict deadlines, and a professional work environment.
-          I have worked with the technologies listed below.
-  `    </p>
+          machine learning, and mathematics. I have previously, worked in the engineering industry as a structural draftsman, with experience working in a professional 
+          environment, and meeting strict deadlines. I have experience working with the technologies listed below.
+        </p> 
+        <hr />
         <ul className="skills-grid">
-          <img className="ruby-logo" src="#" alt="ruby language logo" />
-          <li>Ruby</li>
-          <img className="rails-logo" src="#" alt="rails language logo" />
-          <li>Ruby on Rails</li>
-          <img className="python-logo" src="#" alt="python language logo" />
-          <li>Python</li>
-          <img className="javascript-logo" src="#" alt="javascript language logo" />
-          <li>JavaScript</li>
-          <img className="react-logo" src="#" alt="react language logo" />
-          <li>React</li>
-          <img className="html-logo" src="#" alt="html language logo" />
-          <li>HTML</li>
-          <img className="css-logo" src="#" alt="css language logo" />
-          <li>CSS</li>
+        <li>
+          <img className="ruby-logo" src="/images/ruby.svg" alt="ruby language logo" /><br />
+          Ruby
+        </li>
+        <li>
+          <img className="rails-logo" src="/images/rails.svg" alt="rails language logo" /><br />
+          Ruby on Rails
+        </li>
+        <li>
+          <img className="python-logo" src="/images/python.svg" alt="python language logo" /><br />
+          Python   
+        </li>
+        <li>
+          <img className="javascript-logo" src="/images/javascript.svg" alt="javascript language logo" /><br />
+          JavaScript
+        </li>
+        <li>
+          <img className="react-logo" src="/images/react.svg" alt="react language logo" /><br />
+          React
+        </li>
+        <li>
+          <img className="html-logo" src="/images/html.svg" alt="html language logo" /><br />
+          HTML
+        </li>
+        <li>
+          <img className="css-logo" src="/images/css.svg" alt="css language logo" /><br />
+          CSS
+        </li>
         </ul>
       </section>
     </div>
