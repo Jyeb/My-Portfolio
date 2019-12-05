@@ -1,13 +1,16 @@
-import React from 'react';
-import './stylesheets/App.scss';
+import React, { Fragment } from 'react'
+import './stylesheets/App.scss'
+import Home from './home'
+import Nav from './nav'
+
 
 function App() {
   return (
-    <div>
-      <h1>temp place holder</h1>
-    </div>
-
-  );
+    <Fragment>
+      <Nav />
+      <Home />
+    </Fragment>
+  )
 }
 
-export default App;
+export default App
