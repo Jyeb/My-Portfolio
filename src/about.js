@@ -5,7 +5,7 @@ function About () {
   return (
     <div>
       <section className="about-section">
-        <h1 className="about">About Me</h1>
+        <h1 className="about">ABOUT</h1>
         <img className="profile-picture" src="/images/resume.png" alt="profile-picture" />
         <p>I am currently studying a diploma of IT at Coder Academy in Brisbane, Australia. My interests are in web development, 
           machine learning, and mathematics. I have previously, worked in the engineering industry as a structural draftsman, with experience working in a professional 

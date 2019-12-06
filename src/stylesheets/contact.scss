@@ -12,9 +12,12 @@ section {
     width: 60%;
     h1 {
       text-align: center;
+      text-decoration: underline solid 3px;
+      font-size: 24px;
     }
     li {
       text-decoration: none;
+      list-style-type: none;
     }
   }
 }

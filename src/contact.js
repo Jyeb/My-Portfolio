@@ -5,7 +5,7 @@ function Contact () {
   return (
   <Fragment>
     <section className="contact-section">
-    <h1>Contact Me</h1>
+    <h1>CONTACT</h1>
     <ul>
       <li>Email:<a href="#">bussajye@gmail.com</a></li>
       <li>Resume:<a href="#">Jye Bussa</a></li>

@@ -12,7 +12,7 @@ function Nav () {
       smooth={true}
       offset={-70}
       duration= {500}
-  >HOME</Link>
+      >HOME</Link>
       <Link
         activeClass="active"
         to="about-page"
