@@ -7,6 +7,7 @@ nav {
   list-style-type: none;
   width: 100vw;
   border-bottom: 2px solid #04C2C9;
+  z-index: 99;
   .nav-options {
     width: 80vw;
     display: flex;
@@ -20,6 +21,7 @@ nav {
   
       &:hover {
         opacity: 0.5;
+        cursor: pointer;
       }
     }  
   }

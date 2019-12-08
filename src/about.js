@@ -6,7 +6,7 @@ function About () {
     <div>
       <section className="about-section">
         <h1 className="about">ABOUT</h1>
-        <img className="profile-picture" src="/images/resume.png" alt="profile-picture" />
+        <img className="profile-picture" src="/images/profile-pic.png" alt="profile-picture" />
         <p>I am currently studying a diploma of IT at Coder Academy in Brisbane, Australia. My interests are in web development, 
           machine learning, and mathematics. I have previously, worked in the engineering industry as a structural draftsman, with experience working in a professional 
           environment, and meeting strict deadlines. I have experience working with the technologies listed below.
