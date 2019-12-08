@@ -1,7 +1,7 @@
 
 {
   "name": "portfolio",
-  "homepage": "https://jyeb.github.io/My-Portfolio/"
+  "homepage": "https://jyeb.github.io/My-Portfolio/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
