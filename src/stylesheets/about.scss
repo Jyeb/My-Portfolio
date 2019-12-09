@@ -1,9 +1,15 @@
 @import 'colors.scss';
 section {
   height: 100vh;
+  .about-grid {
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 50px;
+  }
   .profile-picture {
-    height: 150px;
-    width: 150px;
+    height: 300px;
+    width: 300px;
     border: 3px solid #04C2C9;
     margin-bottom: 20px;
     margin-left: auto; 
@@ -14,18 +20,23 @@ section {
   .about {
     text-align: center;
   }
+  .description {
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #616161;
+    font-size: 12pt;
+    margin-top: 20px;
+  }
   .about-section {
     padding-top: 1px;
-    margin-left: auto;
-    margin-right: auto;
+    // margin-left: auto;
+    // margin-right: auto;
     text-align: center;
-    background-color:  #f4f4f4;
-    border-left: 2px solid #04C2C9; 
-    border-right: 2px solid #04C2C9;
-    width: 60%;
+
     .skills-grid {
       display: grid;
-      grid-template-columns: 25% 25% 25% 25%;
+      grid-template-columns: 33% 33% 33%;
+      padding-top: 20px;
     }
 
     h1 {
@@ -34,7 +45,7 @@ section {
       font-size: 24px;
     }
     ul {
-      display: grid | inline-grid;
+        display: grid | inline-grid;
         .ruby-logo {
           height: 60px;
           width: 60px;

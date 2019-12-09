@@ -5,13 +5,17 @@ function About () {
   return (
     <div>
       <section className="about-section">
-        <h1 className="about">ABOUT</h1>
+        <div className="about-grid"> 
+        <div>
+        
         <img className="profile-picture" src="/images/profile-pic.png" alt="profile-picture" />
-        <p>I am currently studying a diploma of IT at Coder Academy in Brisbane, Australia. My interests are in web development, 
-          machine learning, and mathematics. I have previously, worked in the engineering industry as a structural draftsman, with experience working in a professional 
-          environment, and meeting strict deadlines. I have experience working with the technologies listed below.
+        <h1 className="about">ABOUT</h1>
+        <p className="description">I am currently studying a diploma of IT at Coder Academy in Brisbane, Australia. My interests are in web development, 
+          machine learning, and mathematics. I have experience working with the technologies listed below.
         </p> 
-        <hr />
+        </div>
+        <div>
+          <h1>SKILLS</h1>
         <ul className="skills-grid">
         <li>
           <img className="ruby-logo" src="/images/ruby.svg" alt="ruby language logo" /><br />
@@ -42,6 +46,8 @@ function About () {
           CSS
         </li>
         </ul>
+        </div>
+        </div>
       </section>
     </div>
   )

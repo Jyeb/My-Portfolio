@@ -6,7 +6,6 @@ function Projects () {
     <section className="projects-section">
       <h1>PROJECTS</h1>
       <p>If you would like to check out some of my work, below are github links for some of my recent projects.</p>
-      <hr /> 
       <br /> 
       <br />
       <div className="projects-grid">         

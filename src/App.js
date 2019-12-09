@@ -14,9 +14,11 @@ function App() {
     <Fragment>
       <Nav />
       <section className="home-page"><Home /></section>
+      <div className="page-container">
       <section className="about-page"><About /></section>
       <section className="projects-page"><Projects /></section>
       <section className="contact-page"><Contact /></section>
+      </div>
     </Fragment>
   )
 }

@@ -1,16 +1,10 @@
 @import 'colors.scss';
 section {
   height: 100vh;
+  padding-top: 10px;
   .projects-section {
     margin-top: -24px;
-    margin-left: auto;
-    margin-right: auto;
     text-align: center;
-    border-left: 2px solid #04C2C9; 
-    border-right: 2px solid #04C2C9;
-    background-color:  #f4f4f4;
-    width: 60%;
-
     h1 {
       text-align: center;
       text-decoration: underline solid 3px;
