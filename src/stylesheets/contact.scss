@@ -18,7 +18,8 @@ section {
     }
     .contact-grid {
       display: grid;
-      grid-template-columns: 25% 25% 25% 25%;
+      grid-template-columns: 33% 33% 33%;
+      padding-left: 0;
       a {
         text-align: center;
         text-decoration: none;
@@ -42,6 +43,25 @@ section {
           margin-right: auto;
         }     
       }
+    }
+    textarea {
+      width:70%;
+      border-radius: 5px; 
+      resize: none;
+      border: 2px solid $light_blue;
+    }
+    input {
+      border-radius: 5px;
+      border: 2px solid $light_blue
+    }
+    input[type=submit] {
+      padding: 16px 32px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      color: white;
+      background-color: $light_blue;
+
     }
   }
 }
