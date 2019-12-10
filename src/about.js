@@ -46,8 +46,8 @@ function About () {
           CSS
         </li>
         <li>
-          <img className="css-logo" src="/images/github-sign.png" alt="css language logo" /><br />
-          Github
+          <img className="css-logo" src="/images/git.png" alt="css language logo" /><br />
+          Git
         </li>
         <li>
           <img className="css-logo" src="/images/ubuntu.png" alt="css language logo" /><br />
