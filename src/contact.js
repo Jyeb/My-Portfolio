@@ -18,19 +18,19 @@ function Contact () {
     <ul className="contact-grid">
       <a href="#" target="_blank">
       <li>
-        <img className="resume-icon" src="/images/resume.png" alt="email icon" />
+        <img className="resume-icon" src={`${process.env.PUBLIC_URL}/images/resume.png`} alt="email icon" />
       </li>
       <p>Resume</p>
       </a>
       <a href="https://www.linkedin.com/in/jye-bussa-2b5b54193/" target="_blank">
       <li>
-        <img className="linkedin-icon" src="/images/linkedin.png" alt="email icon" />
+        <img className="linkedin-icon" src={`${process.env.PUBLIC_URL}/images/linkedin.png`} alt="email icon" />
       </li>
       <p>Linkedin</p>
       </a>
       <a href="https://github.com/Jyeb" target="_blank">
       <li>
-        <img className="github-icon" src="/images/github-sign.png" alt="email icon" />
+        <img className="github-icon" src={`${process.env.PUBLIC_URL}/images/github-sign.png`} alt="email icon" />
       </li>
       <p>Github</p>
       </a>
