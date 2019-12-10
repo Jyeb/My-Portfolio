@@ -1,0 +1,108 @@
+section {
+  height: 100vh;
+  padding-top: 10px;
+}
+
+section .project-intro {
+  color: #616161;
+}
+
+section .projects-section {
+  margin-top: -24px;
+  text-align: center;
+}
+
+section .projects-section h1 {
+  text-align: center;
+  -webkit-text-decoration: underline solid 3px;
+          text-decoration: underline solid 3px;
+  font-size: 24px;
+}
+
+section .projects-section .projects-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  padding-left: 0px;
+}
+
+section .projects-section .projects-grid div {
+  list-style-type: none;
+}
+
+section .projects-section .projects-grid div .battleships {
+  height: 100%;
+  min-width: 90%;
+  max-width: 90%;
+}
+
+section .projects-section .projects-grid div .marketplace {
+  height: 100%;
+  max-width: 90%;
+  min-width: 90%;
+}
+
+.container {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  margin-left: 5%;
+  width: 90%;
+  opacity: 0;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  background-color: #234651;
+}
+
+.project-footer {
+  margin-top: -24px;
+  margin-left: 5%;
+  min-width: 90%;
+  max-width: 90%;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.project-footer .badge {
+  display: inline-block;
+  position: relative;
+  min-width: 14px;
+  /* pixel unit */
+  padding: 3px 15px;
+  /* pixel unit */
+  border-radius: 10rem;
+  font-size: 15px;
+  text-align: center;
+  background: #58677c;
+  color: #fefefe;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.project-footer h4 {
+  color: #616161;
+}
+
+.container:hover .overlay {
+  opacity: 0.9;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/*# sourceMappingURL=projects.css.map */

@@ -1,0 +1,89 @@
+section {
+  height: 100vh;
+}
+
+section .about-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+}
+
+section .profile-picture {
+  height: 300px;
+  width: 300px;
+  border: 3px solid #04C2C9;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 50%;
+}
+
+section .about {
+  text-align: center;
+}
+
+section .description {
+  padding-left: 50px;
+  padding-right: 50px;
+  color: #616161;
+  font-size: 12pt;
+  margin-top: 20px;
+}
+
+section .about-section {
+  padding-top: 1px;
+  text-align: center;
+  -webkit-transform: translateY(15%);
+          transform: translateY(15%);
+}
+
+section .about-section .skills-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 33% 33% 33%;
+      grid-template-columns: 33% 33% 33%;
+  padding-top: 20px;
+}
+
+section .about-section h1 {
+  text-align: center;
+  -webkit-text-decoration: underline solid 3px;
+          text-decoration: underline solid 3px;
+  font-size: 24px;
+}
+
+section .about-section ul {
+  display: grid | inline-grid;
+}
+
+section .about-section ul .ruby-logo {
+  height: 60px;
+  width: 60px;
+}
+
+section .about-section ul .react-logo {
+  height: 60px;
+  width: 60px;
+}
+
+section .about-section ul .javascript-logo {
+  height: 60px;
+  width: 60px;
+}
+
+section .about-section ul .python-logo {
+  height: 60px;
+}
+
+section .about-section ul img {
+  height: 70px;
+  width: 55px;
+}
+
+section .about-section ul li {
+  list-style-type: none;
+  padding-top: 25px;
+}
+/*# sourceMappingURL=about.css.map */
