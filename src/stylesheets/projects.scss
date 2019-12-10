@@ -2,6 +2,9 @@
 section {
   height: 100vh;
   padding-top: 10px;
+  .project-intro {
+    color: #616161;
+  }
   .projects-section {
     margin-top: -24px;
     text-align: center;
@@ -41,12 +44,38 @@ section {
   position: absolute;
   top: 0;
   left: 0;
+  bottom: 0;
   height: 100%;
   margin-left: 5%;
   width: 90%;
   opacity: 0;
   transition: .5s ease;
   background-color: $dark_blue;
+}
+.project-footer {
+  margin-top: -24px;
+  margin-left: 5%;
+  min-width: 90%;
+  max-width: 90%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+  .badge {
+    display: inline-block;
+    position: relative;
+    min-width: 14px; /* pixel unit */
+    padding: 3px 15px; /* pixel unit */
+    border-radius: 10rem;
+    font-size: 15px;
+    text-align: center;
+    background: #58677c;
+    color: #fefefe;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  h4 {
+    color: #616161;
+  }
 }
 
 .container:hover .overlay {

@@ -11,7 +11,7 @@ function About () {
         <img className="profile-picture" src="/images/profile-pic.png" alt="profile-picture" />
         <h1 className="about">ABOUT</h1>
         <p className="description">I am currently studying a diploma of IT at Coder Academy in Brisbane, Australia. My interests are in web development, 
-          machine learning, and mathematics. I have experience working with the technologies listed below.
+          machine learning, and mathematics. I have experience working with the following technologies and tools.
         </p> 
         </div>
         <div>
@@ -44,6 +44,14 @@ function About () {
         <li>
           <img className="css-logo" src="/images/css.svg" alt="css language logo" /><br />
           CSS
+        </li>
+        <li>
+          <img className="css-logo" src="/images/github-sign.png" alt="css language logo" /><br />
+          Github
+        </li>
+        <li>
+          <img className="css-logo" src="/images/ubuntu.png" alt="css language logo" /><br />
+          Ubuntu
         </li>
         </ul>
         </div>
