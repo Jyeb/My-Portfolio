@@ -4,7 +4,7 @@ import { Link } from 'react-scroll'
 function Home () {
   return (
     <Fragment>
-      <img className="background-image" src="/images/background.jpg" alt="background image" />
+      <img className="background-image" src={`${process.env.PUBLIC_URL}/images/background.jpg`} alt="background image" />
       <div className="homeinfo">
         <h1>Hi, I'm Jye Bussa</h1>
         <p>Student</p>

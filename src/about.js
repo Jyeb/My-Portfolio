@@ -7,7 +7,7 @@ function About () {
         <div className="about-grid"> 
         <div>
         
-        <img className="profile-picture" src="/images/profile-pic.png" alt="profile-picture" />
+        <img className="profile-picture" src={`${process.env.PUBLIC_URL}/images/profile-pic.png`} alt="profile-picture" />
         <h1 className="about">ABOUT</h1>
         <p className="description">I am currently studying a diploma of IT at Coder Academy in Brisbane, Australia. My interests are in web development, 
           machine learning, and mathematics.

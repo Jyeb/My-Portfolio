@@ -11,7 +11,7 @@ function Projects () {
       <div className="projects-grid">   
     
         <div className="container"> 
-          <img className="battleships" src="/images/Battleships.jpeg" alt="battleship game screenshot" />
+          <img className="battleships" src={`${process.env.PUBLIC_URL}/images/Battleships.jpeg`} alt="battleship game screenshot" />
           <div className="overlay">
             <div className="text">Terminal application created for the week 3 assessment at Coder Academy.</div>
           </div>
@@ -22,7 +22,7 @@ function Projects () {
         </div>
 
         <div className="container">
-          <img className="marketplace" src="/images/two-sided-marketplace.png" alt="marketplace application screenshot" />
+          <img className="marketplace" src={`${process.env.PUBLIC_URL}/images/two-sided-marketplace.png`} alt="marketplace application screenshot" />
           <div className="overlay">
             <div className="text">Two-sided marketplace application completed for the third assessment at Coder Academy.</div>
           </div>
