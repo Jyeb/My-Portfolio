@@ -14,30 +14,24 @@ section {
       font-size: 24px;
     }
     .projects-grid {
-      display: grid; 
+      display: grid;
+      height: 35%; 
       grid-template-columns: 50% 50%;
       padding-left: 0px;
-
-      div {
+      .container {
+        position: relative;
         list-style-type: none;
-        .battleships {
+        .image-size {
+          position: relative;
+          background-size: contain;
           height: 100%;
-          min-width:90%;   
-          max-width:90%;
+          width: 90%;
+          margin-left: 5%;
+        }
 
-        }
-        .marketplace {
-          height: 100%;
-          max-width: 90%;
-          min-width:90%;
-        }
-      }        
+      }     
     }
   }
-}
-
-.container {
-  position: relative;
 }
 
 .overlay {
