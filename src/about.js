@@ -11,7 +11,13 @@ function About () {
         <img className="profile-picture" src="/images/profile-pic.png" alt="profile-picture" />
         <h1 className="about">ABOUT</h1>
         <p className="description">I am currently studying a diploma of IT at Coder Academy in Brisbane, Australia. My interests are in web development, 
-          machine learning, and mathematics. I have experience working with the following technologies and tools.
+          machine learning, and mathematics.
+          <br /><br />
+          I have previously worked in the engineering industry at a structural and geotechnical engineering firm. 
+          <br /><br />
+          During this time I worked as a 
+          structural draftsman and gained experience designing and drafting the structural components of residential and commercial property
+          whilst adhering to strict deadlines.
         </p> 
         </div>
         <div>

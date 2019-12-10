@@ -30,13 +30,14 @@ section .description {
   color: #616161;
   font-size: 12pt;
   margin-top: 20px;
+  text-align: left;
 }
 
 section .about-section {
   padding-top: 1px;
   text-align: center;
-  -webkit-transform: translateY(15%);
-          transform: translateY(15%);
+  -webkit-transform: translateY(10%);
+          transform: translateY(10%);
 }
 
 section .about-section .skills-grid {
@@ -44,7 +45,6 @@ section .about-section .skills-grid {
   display: grid;
   -ms-grid-columns: 33% 33% 33%;
       grid-template-columns: 33% 33% 33%;
-  padding-top: 20px;
 }
 
 section .about-section h1 {
@@ -84,6 +84,6 @@ section .about-section ul img {
 
 section .about-section ul li {
   list-style-type: none;
-  padding-top: 25px;
+  padding-top: 50px;
 }
 /*# sourceMappingURL=about.css.map */
