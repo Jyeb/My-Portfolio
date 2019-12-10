@@ -11,7 +11,7 @@ function Projects () {
       <div className="projects-grid">   
     
         <div className="container"> 
-          <img className="battleships" src={`${process.env.PUBLIC_URL}/images/battleships.jpeg`} alt="battleship game screenshot" />
+          <img className="battleships" src={`${process.env.PUBLIC_URL}/images/Battleships.jpeg`} alt="battleship game screenshot" />
           <div className="overlay">
             <div className="text">Terminal application created for the week 3 assessment at Coder Academy.</div>
           </div>
