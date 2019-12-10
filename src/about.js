@@ -24,7 +24,7 @@ function About () {
           <h1>SKILLS</h1>
         <ul className="skills-grid">
         <li>
-          <img className="ruby-logo" src="/images/ruby.svg" alt="ruby language logo" /><br />
+          <img className="ruby-logo" src="https://github.com/Jyeb/My-Portfolio/blob/master/public/images/ruby.svg" alt="ruby language logo" /><br />
           Ruby
         </li>
         <li>
