@@ -90,3 +90,20 @@ section {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
+@media (max-width: 800px) {
+  section {
+    .projects-section {
+      height: auto;
+      .projects-grid {
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto;
+        margin-bottom: 100px;
+        .container {
+          height: inherit;
+          margin-bottom: 100px;
+        }
+      }
+    }
+  }
+}

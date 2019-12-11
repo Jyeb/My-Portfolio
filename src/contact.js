@@ -7,7 +7,8 @@ function Contact () {
     <section className="contact-section">
     <h1>CONTACT</h1>
       <div className="resume-doc">
-        <img className="resume-img"src={`${process.env.PUBLIC_URL}/images/JyeBussa-Resume.png`}></img>
+        <img className="resume-img"src={`${process.env.PUBLIC_URL}/images/JyeBussa-Resume.png`} alt="resume"></img>
+   
       </div>
     <ul className="contact-grid">
       <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=bussajye@gmail.com" target="_blank">

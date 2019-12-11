@@ -77,5 +77,30 @@ section {
   }
 }
 @media (max-width: 800px) {
-
+  section {
+    .about-grid {
+      grid-template-columns: auto;
+      text-align: center;
+   
+    }
+    .description {
+      padding-left: 0px;
+      padding-right: 0px;
+      text-align: center;
+    }
+    .profile-picture {
+      height: 150px;
+      width: 150px;
+    }
+    .about-section {
+      height: auto;
+      -ms-transform: translateY(0%);
+      transform: translateY(0%);
+      .skills-grid {
+        grid-template-columns: 50% 50%;
+        padding-left: 0px;
+      }  
+    }
+ 
+  }
 }

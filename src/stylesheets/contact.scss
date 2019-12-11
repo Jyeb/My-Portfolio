@@ -89,3 +89,17 @@ section {
     }
   }
 }
+
+@media (max-width: 800px) {
+  section {
+    .contact-section {
+      height: auto;
+      .resume-doc {
+        display: none;
+      }
+      .contact-grid {
+        flex-direction: column;
+      }
+    }
+  }
+}

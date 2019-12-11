@@ -9,3 +9,17 @@
     height: auto;
   }
 }
+
+@media (max-width: 800px) {
+  .page-container {
+    .about-page {
+      height: auto;
+    }
+    .projects-page {
+      height: auto;
+    }
+    .contact-page {
+      height: auto;
+    }
+  }
+}
