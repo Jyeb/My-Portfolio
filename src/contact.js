@@ -6,15 +6,9 @@ function Contact () {
   <Fragment>
     <section className="contact-section">
     <h1>CONTACT</h1>
-    <form className="contact-form" action="mailto:bussajye@gmail.com" method="post">
-        Name:<br />   
-        <input type="text" placeholder="Enter your name..." style={{width:"70%"}}/><br />
-        E-mail:<br />
-        <input type="text" placeholder="Enter your email..." style={{width:"70%"}}/><br />
-        Message:<br /> 
-        <textarea placeholder="Write a message..." rows="20"  /><br /><br />
-        <input type="submit" value="SEND" />
-    </form>
+      <div className="resume-doc">
+        <img src={`${process.env.PUBLIC_URL}/images/JyeBussa-Resume.png`}></img>
+      </div>
     <ul className="contact-grid">
       <a href="#" target="_blank">
       <li>

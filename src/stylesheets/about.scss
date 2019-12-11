@@ -27,6 +27,7 @@ section {
     text-align: left;
   }
   .about-section {
+    // font-family: 'sofia_pro_regularregular';
     padding-top: 1px;
     text-align: center;
     -ms-transform: translateY(10%);
@@ -65,6 +66,7 @@ section {
         li {
           list-style-type: none;
           padding-top: 50px;
+          bottom: 0;
         }
     }
   }
