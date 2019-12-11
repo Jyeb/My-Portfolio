@@ -9,6 +9,9 @@ section {
     flex-direction: column;
     align-items: center;
     font-family: 'sofia_pro_regularregular';
+    .resume-doc {
+      border: 4px inset $dark_blue;
+    }
 
     .contact-form {
       display: flex; 

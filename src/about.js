@@ -51,11 +51,11 @@ function About () {
           <span className="skill-text">CSS</span>
         </li>
         <li>
-          <img className="css-logo" src={`${process.env.PUBLIC_URL}/images/git.png`} alt="css language logo" /><br />
+          <img className="git-logo" src={`${process.env.PUBLIC_URL}/images/git.png`} alt="git language logo" /><br />
           <span className="skill-text">Git</span>
         </li>
         <li>
-          <img className="css-logo" src={`${process.env.PUBLIC_URL}/images/ubuntu.png`} alt="css language logo" /><br />
+          <img className="git-logo" src={`${process.env.PUBLIC_URL}/images/ubuntu.png`} alt="git language logo" /><br />
           <span className="skill-text">Ubuntu</span>
         </li>
         </ul>

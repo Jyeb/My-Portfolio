@@ -27,7 +27,6 @@ section {
     text-align: left;
   }
   .about-section {
-    // font-family: 'sofia_pro_regularregular';
     padding-top: 1px;
     text-align: center;
     -ms-transform: translateY(10%);
@@ -45,19 +44,26 @@ section {
     ul {
         display: grid | inline-grid;
         .ruby-logo {
+          padding-bottom: 10px;
           height: 60px;
           width: 60px;
         }
         .react-logo {
           height: 60px;
           width: 60px;
+          padding-bottom: 10px;
         }
         .javascript-logo {
           height: 60px; 
           width: 60px;
+          padding-bottom: 8px;
         }
         .python-logo {
           height: 60px;
+          padding-bottom: 10px;
+        }
+        .git-logo {
+          width: 70px;
         }
         img {
           height: 70px;
@@ -66,8 +72,10 @@ section {
         li {
           list-style-type: none;
           padding-top: 50px;
-          bottom: 0;
         }
     }
   }
+}
+@media (max-width: 800px) {
+
 }

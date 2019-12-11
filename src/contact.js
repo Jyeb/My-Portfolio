@@ -7,14 +7,14 @@ function Contact () {
     <section className="contact-section">
     <h1>CONTACT</h1>
       <div className="resume-doc">
-        <img src={`${process.env.PUBLIC_URL}/images/JyeBussa-Resume.png`}></img>
+        <img className="resume-img"src={`${process.env.PUBLIC_URL}/images/JyeBussa-Resume.png`}></img>
       </div>
     <ul className="contact-grid">
-      <a href="#" target="_blank">
+      <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=bussajye@gmail.com" target="_blank">
       <li>
-        <img className="resume-icon" src={`${process.env.PUBLIC_URL}/images/resume.png`} alt="email icon" />
+        <img className="gmail-icon" src={`${process.env.PUBLIC_URL}/images/gmail.png`} alt="email icon" />
       </li>
-      <p>Resume</p>
+      <p>Email</p>
       </a>
       <a href="https://www.linkedin.com/in/jye-bussa-2b5b54193/" target="_blank">
       <li>
