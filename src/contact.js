@@ -15,19 +15,19 @@ function Contact () {
       <li>
         <img className="gmail-icon" src={`${process.env.PUBLIC_URL}/images/gmail.png`} alt="email icon" />
       </li>
-      <p>Email</p>
+      <p>EMAIL</p>
       </a>
       <a href="https://www.linkedin.com/in/jye-bussa-2b5b54193/" target="_blank">
       <li>
         <img className="linkedin-icon" src={`${process.env.PUBLIC_URL}/images/linkedin.png`} alt="email icon" />
       </li>
-      <p>Linkedin</p>
+      <p>LINKEDIN</p>
       </a>
       <a href="https://github.com/Jyeb" target="_blank">
       <li>
         <img className="github-icon" src={`${process.env.PUBLIC_URL}/images/github-sign.png`} alt="email icon" />
       </li>
-      <p>Github</p>
+      <p>GITHUB</p>
       </a>
     </ul>
     </section>

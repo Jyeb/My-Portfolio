@@ -5,10 +5,12 @@ function Home () {
   return (
     <Fragment>
       <img className="background-image" src={`${process.env.PUBLIC_URL}/images/background.jpg`} alt="background image" />
+      <div id="container">
+        <canvas id="pixie"></canvas>
+      </div>
       <div className="homeinfo">
-        <h1>Hi, I'm Jye Bussa</h1>
-        <p>Student</p>
-        <p>Software Developer</p>
+        <h1>Jye Bussa</h1>
+        <p>Student & Software Developer</p>
         <Link
         activeClass="active"
         to="about-page"
@@ -21,5 +23,6 @@ function Home () {
     </Fragment>
   )
 }
+
 
 export default Home

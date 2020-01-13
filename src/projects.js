@@ -17,10 +17,6 @@ function Projects () {
           <div className="overlay">
             <div className="text">Terminal application created for the week 3 assessment at Coder Academy.</div>
           </div>
-          <div className="project-footer">
-            <h4>Terminal Application</h4>
-            <span className="badge">Ruby</span>
-          </div>
           </a>
         </div>
        
@@ -30,16 +26,10 @@ function Projects () {
           <div className="overlay">
             <div className="text">Two-sided marketplace application completed for the third assessment at Coder Academy.</div>
           </div>
-          <div className="project-footer">
-            <h4>Marketplace Application</h4>
-            <span className="badge">Ruby</span>
-            <span className="badge">Rails</span>
-            <span className="badge">JavaScript</span>
-            <span className="badge">HTML</span>
-            <span className="badge">CSS</span>
-          </div>
           </a>
         </div>
+        
+        
       </div>
     </section> 
   )

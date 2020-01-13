@@ -3,80 +3,57 @@ section {
   height: 100vh;
   padding-top: 10px;
   .project-intro {
-    color: #616161;
+    color: $white;
   }
   .projects-section {
     margin-top: -24px;
     text-align: center;
-    font-family: 'sofia_pro_regularregular';
+    font-family: "proxima-nova",sans-serif;
     h1 {
       text-align: center;
-      text-decoration: underline solid 3px;
+      padding-top: 10px;
       font-size: 24px;
+      color: $white;
     }
     .projects-grid {
       display: grid;
       height: 35%; 
       grid-template-columns: 50% 50%;
       padding-left: 0px;
+      padding-bottom: 20px;
+      
       .container {
         position: relative;
         list-style-type: none;
         .image-size {
           position: relative;
-          background-size: contain;
-
+          background-size: cover;
+          background-repeat: no-repeat;
+          padding-left: 5px;
           height: 100%;
-          width: 90%;
-          margin-left: 5%;
+          width: 95%;
+          // margin-top: 10px;
         }
-
       }     
     }
   }
 }
-
 .overlay {
   position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
   height: 100%;
-  margin-left: 5%;
-  width: 90%;
+  width: 95%;
   opacity: 0;
   transition: .5s ease;
-  background-color: $dark_blue;
-}
-.project-footer {
-  margin-top: -24px;
-  margin-left: 5%;
-  min-width: 90%;
-  max-width: 90%;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-  padding-top: 10px; 
-  padding-bottom: 5px;
-  .badge {
-    display: inline-block;
-    position: relative;
-    min-width: 14px; /* pixel unit */
-    padding: 3px 15px; /* pixel unit */
-    border-radius: 10rem;
-    font-size: 15px;
-    text-align: center;
-    background: #58677c;
-    color: #fefefe;
-    margin-bottom: 5px;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-  h4 {
-    color: #616161;
-  }
+  padding-left: 5px;
 }
 
 .container:hover .overlay {
   opacity: 0.9;
+  background-color: #92140C;
+  // padding-bottom: 10px;
 }
 
 .text {
@@ -91,18 +68,14 @@ section {
   text-align: center;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
   section {
     .projects-section {
-      height: auto;
+      // height: auto;
       .projects-grid {
         grid-template-columns: 100%;
-        grid-template-rows: auto auto;
-        margin-bottom: 100px;
-        .container {
-          height: inherit;
-          margin-bottom: 100px;
-        }
+        height: 70%; 
+        // padding-bottom: 10px;
       }
     }
   }

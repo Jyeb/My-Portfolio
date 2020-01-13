@@ -1,19 +1,20 @@
 .page-container {
+  background-color: #151515;
   padding: 0 50px;
   margin-left: auto;
   margin-right: auto; 
   width: 60%;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   z-index: -1;
   .contact-page {
     height: auto;
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
   .page-container {
     .about-page {
       height: auto;
+      padding-bottom: 10%;
     }
     .projects-page {
       height: auto;

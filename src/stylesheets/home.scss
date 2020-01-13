@@ -1,6 +1,7 @@
 @import 'colors.scss';
 body {
-  font-family: 'sofia_pro_regularregular';
+  background-color: #151515;
+  font-family: "proxima-nova",sans-serif;
   margin: 0;
   padding: 0;
   height: 100vh;
@@ -11,11 +12,11 @@ body {
     background-size: 100vw 100vh;
     width: 100vw;
     height: 100vh;
-    opacity: 0.8;
+    opacity: 0.7;
     filter: grayscale(100%);
     position: absolute;
-    transform: scaleX(-1);
-    z-index: -1;
+    // transform: scaleX(-1);
+    // z-index: 9;
   }
   section {
     height: 100vh;
@@ -24,13 +25,13 @@ body {
 
 .homeinfo {
   color: $white;
-  font-family: 'sofia_pro_regularregular';
+  font-family: "proxima-nova",sans-serif;
   font-size: 30px;
   margin: 20px;
   padding-top: 20px;
   text-align: center;
   position: relative;
-  top: 25%;
+  top: 17%;
 
   h1 {
     text-shadow: 2px 2px 0px rgba(0,0,0,0.6);
@@ -38,19 +39,24 @@ body {
   }
 
   p {
-    color: $dark_blue;
+    color: $white;
+    .color-change {
+      color: #92140C;
+    }
+    
   }
 
   a {
     text-decoration: none;
-    color: $dark_blue;
+    color: $white;
     padding: 10px; 
     border-style: solid;
-    border-width: 1px;
-    border-color: $dark_blue;
+    border-width: 2px;
+    border-color: $white;
+    border-radius: 5%;
 
     &:hover {
-      opacity: 0.8;
+      opacity: 0.6;
       cursor: pointer;
     }
   }
